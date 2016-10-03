@@ -18,7 +18,7 @@ public class UserService {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    public List<User> getList(){
+    /*public List<User> getList(){
         String sql = "SELECT id ,'name' ,age   FROM user";
         return (List<User>) jdbcTemplate.query(sql, new RowMapper<User>(){
             @Override
@@ -31,5 +31,5 @@ public class UserService {
             }
 
         });
-    }
+    }*/
 }
